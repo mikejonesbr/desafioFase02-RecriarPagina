@@ -38,6 +38,8 @@ li a{
 main{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 157px;
+
 }
 
 h1{
@@ -63,13 +65,11 @@ p{
 
 footer{
   text-align: center;
-  margin: 157px 356px 23px 356px;
 
   font-family: 'JetBrains Mono', monospace;
   font-size: 14px;
   color: #C2C2C2;
 
-  border-top: 1px solid #00BFA6;
   padding-top:27px;
 }
 
@@ -78,6 +78,11 @@ footer a{
   color: #C2C2C2;
 }
 
+.border{
+  width: 568px;
+  border: 1px solid #00BFA6;
+  margin: 0 auto;
+}
 
 .cadeado{
   position: fixed;
